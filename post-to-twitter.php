@@ -10,17 +10,9 @@
 if (!defined('ABSPATH')) {
     exit;
 }
-
-							   
-
-												
-
+										
 require_once __DIR__ . '/includes/ca-bundle/src/CaBundle.php';
 require_once __DIR__ . '/includes/abraham/twitteroauth/autoload.php';
-
-															  
-
-															 
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
