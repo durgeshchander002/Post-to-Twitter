@@ -77,9 +77,9 @@ class Post_To_Twitter {
         );
 
 							  
-        $title = $post->post_title;
+        $title = $post->post_title; //get post title
         $url = get_permalink($ID);
-        $excerpt = get_the_excerpt($ID);
+        $excerpt = get_the_excerpt($ID); //get post content
         if (empty($excerpt)) {
             $content = strip_tags($post->post_content);
             $excerpt = wp_trim_words($content, 25, '...');
