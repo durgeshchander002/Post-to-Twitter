@@ -82,9 +82,9 @@ class Post_To_Twitter {
         $excerpt = get_the_excerpt($ID); //get post content
         if (empty($excerpt)) {
             $content = strip_tags($post->post_content);
-            $excerpt = wp_trim_words($content, 25, '...');
+            $excerpt = wp_trim_words($content, 30, '...');
         } else {
-            $excerpt = wp_trim_words($excerpt, 25, '');
+            $excerpt = wp_trim_words($excerpt, 30, '');
         }
 
         $tweet_content = $title . "\n\n\n" . $excerpt . "\n" . $url;
