@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Post to Twitter
- * Description: Automatically posts WordPress posts to Twitter when published.
+ * Description: Automatically posts WordPress posts to Twitter when post published.
  * Version: 1.0
  * Author: Durgesh Chander
  */
