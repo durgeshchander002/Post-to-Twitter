@@ -127,7 +127,7 @@ class Post_To_Twitter {
             }
         }
 
-        // Post tweet using Twitter API v2
+        // Post article in twitter using Twitter API v2
         $connection->setApiVersion(2);
         $parameters = ['text' => $message_convert];
         if (!empty($media_ids)) {
